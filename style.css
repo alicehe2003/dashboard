@@ -203,11 +203,57 @@ html, body {
   border-radius: 20px;
   padding-left: 15px; 
   padding-right: 15px; 
-  width: 40vw;  
+  width: 80%;
 }
 
 .top_bar .bottom {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px; 
+  margin-left: 40px; 
+  margin-right: 40px; 
 }
 
+.top_bar .bottom .profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+} 
 
+.top_bar .greetings {
+  display: flex;
+  flex-direction: column; 
+  margin-left: 20px; 
+}
+
+.top_bar .greetings p {
+  font-size: small;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.top_bar .bottom .actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.actions button {
+  background-color: #0284c7;
+  color: white; 
+  border: 0; 
+  border-radius: 20px; 
+  padding: 12px;
+  padding-left: 25px; 
+  padding-right: 25px;  
+  margin-left: 25px; 
+}
+
+/* Adjust search area for small screens */
+@media (max-width: 900px) {
+  .top_bar .bottom .actions {
+    display: none; 
+  }
+}
