@@ -287,4 +287,32 @@ html, body {
   padding: 20px; 
   text-align: left;
   margin-right: 20px; 
+  border-radius: 8px;
+  border: 0; 
+  background-color: white;
+  border-left: 8px solid #eab308; 
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.projects button .description h5 {
+  font-size: medium;
+  font-weight: 600;
+}
+
+.projects button .description p {
+  color: rgb(110, 110, 112); 
+  padding-top: 10px; 
+  padding-bottom: 10px;
+}
+
+.overview button .options {
+  display: flex;
+  flex-direction: row; 
+  width: 100%; 
+  justify-content: flex-end;
+}
+
+.overview button .options object {
+  margin-left: 15px; 
 }
