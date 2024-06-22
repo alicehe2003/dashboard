@@ -270,20 +270,20 @@ html, body {
   flex-wrap: wrap;
   justify-content: flex-start;
   overflow: scroll; 
-  height: calc(100vh - 220px); 
+  height: calc(100vh - 240px); 
 }
 
 .projects h4 {
   font-weight: 500; 
+  margin-bottom: 20px;
 }
 
 .projects button {
   display: flex;
   flex-direction: column;
   width: 250px;
-  margin: 20px; 
-  margin-left: 0; 
-  margin-bottom: 0;
+  margin-bottom: 20px; 
   padding: 20px; 
   text-align: left;
+  margin-right: 20px; 
 }
