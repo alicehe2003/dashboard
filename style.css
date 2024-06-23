@@ -282,7 +282,7 @@ html, body {
 .projects button {
   display: flex;
   flex-direction: column;
-  width: 250px;
+  width: 240px;
   margin-bottom: 20px; 
   padding: 20px; 
   text-align: left;
@@ -324,7 +324,7 @@ html, body {
 }
 
 /* Adjust search area for small screens */
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .updates {
     display: none; 
   }
@@ -357,7 +357,22 @@ html, body {
 
 .updates {
   overflow: scroll; 
-  height: calc(100vh - 240px); 
+  height: calc(100vh - 200px); 
 }
 
+.trending h4 {
+  margin-top: 20px; 
+}
+
+.trending .person {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.topic {
+  display: flex;
+  flex-direction: column;
+  margin: 10px; 
+}
 
